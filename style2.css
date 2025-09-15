@@ -1,0 +1,61 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5); /* nền chuyển màu */
+    margin: 0;
+    padding: 40px;
+  }
+  h2 {
+    text-align: center;
+    color: #222;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #fff;             /* khung trắng */
+    border-radius: 10px;          /* bo góc */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* đổ bóng */
+  }
+  label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #f9f9f9;
+  }
+  .gender {
+    margin-top: 5px;
+  }
+  .gender label {
+    font-weight: normal;
+    margin-right: 15px;
+    color: #444;
+  }
+  input[type="submit"] {
+    margin-top: 18px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;  /* màu xanh lá */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  input[type="submit"]:hover {
+    background: #45a049;  /* xanh đậm hơn khi rê chuột */
+  }

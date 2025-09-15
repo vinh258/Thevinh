@@ -1,0 +1,23 @@
+h1 {
+    background-color: bisque;
+    font-size: 40px;
+
+}
+
+.cho{
+    background-color: rgb(172, 198, 247);
+    font-size: 25px;
+    color:azure
+}
+
+.n {
+    background-color: rgb(172, 198, 247);
+    color: azure;
+    font-size: 18px;
+
+
+}
+div {
+    background: radial-gradient(circle, rgb(135, 135, 243), rgb(163, 220, 243), rgb(247, 161, 250));
+}
+  

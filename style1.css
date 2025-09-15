@@ -1,0 +1,41 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #aed3f3; /* nền xanh nhạt */
+    padding: 30px;
+  }
+  h2 {
+    text-align: center;
+    color: #5abbfc;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(167, 205, 255, 0.2);
+  }
+  th, td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background: #79a4f5;   /* xanh lá */
+    color: white;
+  }
+  tr:nth-child(even) {
+    background: #d3fff4;   /* hàng chẵn màu xám nhạt */
+  }
+  tr:nth-child(odd) {
+    background: #c2fafa;      /* hàng lẻ màu trắng */
+  }
+  td:first-child {
+    font-weight: bold;
+    background: #adfcfc;   /* màu xanh nhạt cho cột nhóm học phần */
+  }
+  caption {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f7bdbd;
+  }
